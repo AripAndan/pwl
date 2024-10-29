@@ -9,33 +9,33 @@
     <link rel="stylesheet" href="/src/output.css">
     <title>Admin Page</title> 
 </head>
-<body>
+<body class="h-[1200px] w-full flex justify-start">
     <!-- Sidebar -->
-    <div class="fixed left-0 top-0 w-64 h-full bg-green-900 p-4">
+    <div class=" left-0 top-0 w-2/12 h-full bg-green-900 p-4">
         <a href="#" class=" flex items-center pb-4 border-b bg-green-700">
             <span class="text-lg font-semibold text-gray-200 flex items-center px-4">Open Admin
             </span>
         </a>
         <ul class="mt-4">
             <li class="mb-1 group active"> 
-                <a href="#" class="hover:bg-blue-600 rounded-md flex items-center py-2 px-4 text-gray-200 ">
+                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-green-400 rounded-md ">
                     <i class="ri-home-2-line mr-3 text-lg"></i>
                     <span class="text-sm">Dashboard</span>
                 </a>
             </li>
             <li class="mb-1">
-                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-bl-600 rounded-md">
-                    <i class="ri-home-2-line mr-3 text-lg"></i>
+                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-green-400 rounded-md">
+                    <i class="ri-pages-line mr-3 text-lg"></i>
                     <span class="text-sm">Pages</span>
                 </a>
             <li class="mb-1">
-                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-bl-600 rounded-md">
-                    <i class="ri-home-2-line mr-3 text-lg"></i>
+                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-green-400 rounded-md">
+                    <i class="ri-list-check mr-3 text-lg"></i>
                     <span class="text-sm">Admin</span>
                 </a>
             <li class="mb-1">
-                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-bl-600 rounded-md">
-                    <i class="ri-home-2-line mr-3 text-lg"></i>
+                <a href="#" class="flex items-center py-2 px-4 text-gray-200 hover:bg-green-400 rounded-md">
+                    <i class="ri-questionnaire-fill mr-3 text-lg"></i>
                     <span class="text-sm">Helpers</span>
                 </a>
             </li>
@@ -44,6 +44,48 @@
 
     <!-- end sidebar -->
       
+    <!-- mai -->
+    <div class=" h-10/12 w-full justify-center">
+        <table border="2" class="min-w-full bg-white border-2 border-x-slate-700">
+            <thead>
+                <tr>
+                    <th class="py-2 px-4 border-b">ID</th>
+                    <th class="py-2 px-4 border-b">Nama</th>
+                    <th class="py-2 px-4 border-b">Email</th>
+                    <th class="py-2 px-4 border-b">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 px-4 border-b">1</td>
+                    <td class="py-2 px-4 border-b">Muhammad Lutfi Alwiansyah</td>
+                    <td class="py-2 px-4 border-b">luftiyankee38@gmail.com</td>
+                    <td class="py-2 px-4 border-b">
+                        <a href="#" class="text-blue-500 hover:underline">Edit</a>
+                        <a href="#" class="text-red-500 hover:underline ml-4">Hapus</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b">2</td>
+                    <td class="py-2 px-4 border-b">Arip Lukmanul Hakim</td>
+                    <td class="py-2 px-4 border-b">ariplukmanulhakim.andan@gmail.com</td>
+                    <td class="py-2 px-4 border-b">
+                        <a href="#" class="text-blue-500 hover:underline">Edit</a>
+                        <a href="#" class="text-red-500 hover:underline ml-4">Hapus</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b">3</td>
+                    <td class="py-2 px-4 border-b">Moh Najib</td>
+                    <td class="py-2 px-4 border-b">mohnajibjr99@gmail.com</td>
+                    <td class="py-2 px-4 border-b">
+                        <a href="#" class="text-blue-500 hover:underline">Edit</a>
+                        <a href="#" class="text-red-500 hover:underline ml-4">Hapus</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 </html>
